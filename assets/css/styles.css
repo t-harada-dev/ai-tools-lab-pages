@@ -1,11 +1,11 @@
 :root {
-  --bg: #fffdf7;
+  --bg: #f4faff;
   --paper: #ffffff;
-  --ink: #1f2937;
-  --muted: #5c6677;
-  --line: #e6e8ed;
-  --soft: #f7f8fb;
-  --primary: #0f766e;
+  --ink: #0f2747;
+  --muted: #4f6784;
+  --line: #dce6f4;
+  --soft: #f4f8ff;
+  --primary: #2563eb;
   --primary-ink: #ffffff;
   --secondary: #164e63;
   --radius: 14px;
@@ -24,7 +24,10 @@ body {
 
 body {
   color: var(--ink);
-  background: linear-gradient(180deg, #fffdf7 0%, #f8fbff 100%);
+  background:
+    radial-gradient(960px 520px at -4% -10%, rgba(37,99,235,.20), transparent 64%),
+    radial-gradient(720px 460px at 102% 2%, rgba(34,211,238,.18), transparent 58%),
+    linear-gradient(180deg, #f7fcff 0%, #eef5ff 100%);
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
   line-height: 1.7;
 }
@@ -91,6 +94,12 @@ nav a {
   padding: 7px 10px;
   font-size: 12px;
   background: var(--paper);
+  transition: .2s ease;
+}
+
+nav a:hover {
+  border-color: rgba(37,99,235,.45);
+  box-shadow: 0 0 0 3px rgba(37,99,235,.08);
 }
 
 .section {
@@ -110,10 +119,13 @@ nav a {
 
 .hero {
   margin-top: 10px;
-  border: 1px solid #dbe3ee;
+  border: 1px solid #cfe0fa;
   border-radius: calc(var(--radius) + 2px);
-  background: radial-gradient(circle at 85% 15%, #d7f3ef 0%, #fff 36%);
+  background:
+    radial-gradient(circle at 88% 10%, rgba(34,211,238,.30) 0%, transparent 38%),
+    linear-gradient(145deg, rgba(37,99,235,.08), rgba(255,255,255,.94) 40%);
   padding: 24px;
+  box-shadow: 0 18px 40px rgba(23,63,112,.12);
 }
 
 .eyebrow {
@@ -151,6 +163,8 @@ nav a {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 16px;
+  box-shadow: 0 10px 24px rgba(16,46,86,.08);
+  backdrop-filter: blur(3px);
 }
 
 .card h3 {
@@ -179,6 +193,7 @@ nav a {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--paper);
+  box-shadow: 0 14px 28px rgba(16,46,86,.10);
 }
 
 table {
@@ -238,6 +253,7 @@ details {
   border-radius: 10px;
   background: var(--paper);
   padding: 10px 12px;
+  box-shadow: 0 8px 20px rgba(16,46,86,.06);
 }
 
 summary {
@@ -251,9 +267,11 @@ details p {
 }
 
 .ctaSection {
-  border: 1px solid #d7e1f0;
+  border: 1px solid #c9dbf8;
   border-radius: var(--radius);
-  background: linear-gradient(180deg, #ffffff 0%, #eef8ff 100%);
+  background:
+    radial-gradient(circle at 92% 8%, rgba(34,211,238,.28), transparent 36%),
+    linear-gradient(180deg, #ffffff 0%, #edf5ff 100%);
   padding: 20px;
 }
 
@@ -276,20 +294,23 @@ details p {
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
+  transition: .18s ease;
 }
 
 .btn:hover {
   background: #f0f6ff;
+  transform: translateY(-1px);
 }
 
 .btn-primary {
   border-color: var(--primary);
-  background: var(--primary);
+  background: linear-gradient(135deg, #2563eb, #22d3ee);
   color: var(--primary-ink);
+  box-shadow: 0 12px 24px rgba(37,99,235,.24);
 }
 
 .btn-primary:hover {
-  filter: brightness(1.06);
+  filter: brightness(1.05);
 }
 
 footer {
