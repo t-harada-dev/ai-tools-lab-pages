@@ -5,23 +5,55 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://ai-tools-lab.jp/privacy.html</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ai-tools-lab.jp/contact.html</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ai-tools-lab.jp/reviews/synthesia.html</loc>
+    <loc>https://ai-tools-lab.jp/compare/ai-minutes-devices/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://ai-tools-lab.jp/reviews/pictory.html</loc>
+    <loc>https://ai-tools-lab.jp/lp/plaud/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://ai-tools-lab.jp/reviews/writesonic.html</loc>
+    <loc>https://ai-tools-lab.jp/review/zenchord-1/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/review/notta-memo/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/review/plaud-note/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/usecase/meeting/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/usecase/lecture/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/usecase/interview/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/guide/pitfalls/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/faq/ai-minutes-devices/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/about/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/privacy/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/disclaimer/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

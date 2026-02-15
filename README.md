@@ -1,19 +1,31 @@
 # ai-tools-lab-pages
 
-AI動画生成ツール／AIライティングツールの比較・レビュー用のGitHub Pages（最小構成）。
+AI議事録イヤホン / 文字起こしAIボイスレコーダー向けの比較サイト（静的HTML）。
 
-## ページ
+## 主要ページ
 
-- `index.html`：比較ハブ
-- `reviews/`：個別レビュー（Synthesia / Pictory / Writesonic）
-- `privacy.html`：プライバシーポリシー
-- `contact.html`：お問い合わせ
+- `/`：SNS流入向けトップ
+- `/compare/ai-minutes-devices/`：比較ハブ（最重要）
+- `/lp/plaud/`：PLAUD特化LP
+- `/review/zenchord-1/`
+- `/review/notta-memo/`
+- `/review/plaud-note/`
+- `/usecase/meeting/` `/usecase/lecture/` `/usecase/interview/`
+- `/faq/ai-minutes-devices/`
+- `/guide/pitfalls/`
+- `/about/` `/privacy/` `/disclaimer/`
 
-## ローカル確認
+## 計測イベント（`assets/js/site.js`）
 
-ブラウザで `index.html` を開くだけで動きます（静的HTML/CSS）。
+- `view_compare`
+- `view_lp_plaud`
+- `click_usecase_button`
+- `click_affiliate`（`product`付き）
+- `click_a8_plaud`
+- `click_to_compare`
+- `scroll_50` / `scroll_80`
+- `expand_faq`
 
-## GitHub Pages 公開
+## 公開
 
-Repository Settings → Pages → Deploy from a branch で `main` / `/ (root)` を選択。
-
+GitHub Pages の `main` / `root` で配信。
