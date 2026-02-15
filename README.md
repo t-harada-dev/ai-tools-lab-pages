@@ -6,10 +6,10 @@ AI議事録イヤホン / 文字起こしAIボイスレコーダー向けの比�
 
 - `/`：SNS流入向けトップ
 - `/compare/ai-minutes-devices/`：比較ハブ（最重要）
-- `/lp/plaud/`：PLAUD特化LP
-- `/review/zenchord-1/`
-- `/review/notta-memo/`
-- `/review/plaud-note/`
+- `/plaud/`：PLAUD解説
+- `/explain/zenchord-1/`
+- `/explain/notta-memo/`
+- `/explain/plaud-note/`
 - `/usecase/meeting/` `/usecase/lecture/` `/usecase/interview/`
 - `/faq/ai-minutes-devices/`
 - `/guide/pitfalls/`
