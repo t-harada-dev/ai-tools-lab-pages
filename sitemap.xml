@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ai-tools-lab.jp/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/privacy.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/contact.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/reviews/synthesia.html</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/reviews/pictory.html</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://ai-tools-lab.jp/reviews/writesonic.html</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
